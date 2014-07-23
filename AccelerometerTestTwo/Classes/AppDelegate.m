@@ -6,6 +6,7 @@
 //  Copyright Big River 2012. All rights reserved.
 //
 
+#import <NewRelicAgent/NewRelicAgent.h>
 #import "AppDelegate.h"
 #ifdef PHONEGAP_FRAMEWORK
 	#import <PhoneGap/PhoneGapViewController.h>
@@ -29,7 +30,8 @@
  * This is main kick off after the app inits, the views and Settings are setup here. (preferred - iOS4 and up)
  */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{    
+{ 
+    [NewRelicAgent startWithApplicationToken:@"AA28b80cb02118b4eb7708439ffb606a055bacd3f0"];
     NSURL* url = [launchOptions objectForKey:UIApplicationLaunchOptionsURLKey];
     if (url && [url isKindOfClass:[NSURL class]])
     {

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C419FE0017A4BCF300E16EF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C419FDFF17A4BCF300E16EF1 /* CoreTelephony.framework */; };
+		C419FE0117A4BD0300E16EF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED4F4B14BFA260002D9CF4 /* SystemConfiguration.framework */; };
+		C419FE0317A4BD1100E16EF1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C419FE0217A4BD1100E16EF1 /* libz.dylib */; };
+		C419FE0417A4C4C300E16EF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C419FDFF17A4BCF300E16EF1 /* CoreTelephony.framework */; };
+		C419FE0517A4C4D200E16EF1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C419FE0217A4BD1100E16EF1 /* libz.dylib */; };
+		C4A45AE417A4AD8600595624 /* NewRelicAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A45AE317A4AD8600595624 /* NewRelicAgent.framework */; };
 		C4ED4F3814BFA260002D9CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED4F3714BFA260002D9CF4 /* Foundation.framework */; };
 		C4ED4F3A14BFA260002D9CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED4F3914BFA260002D9CF4 /* UIKit.framework */; };
 		C4ED4F3C14BFA260002D9CF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED4F3B14BFA260002D9CF4 /* CoreGraphics.framework */; };
@@ -33,9 +39,13 @@
 		C4ED4F7214BFA260002D9CF4 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4ED4F7114BFA260002D9CF4 /* Capture.bundle */; };
 		C4ED4F7414BFA260002D9CF4 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4ED4F7314BFA260002D9CF4 /* PhoneGap.plist */; };
 		C4ED4F7814BFA260002D9CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED4F7714BFA260002D9CF4 /* AppDelegate.m */; };
+		C4F8908314C081FF00A9B7E3 /* www in Resources */ = {isa = PBXBuildFile; fileRef = C4F8908214C081FF00A9B7E3 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C419FDFF17A4BCF300E16EF1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C419FE0217A4BD1100E16EF1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C4A45AE317A4AD8600595624 /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewRelicAgent.framework; path = ../../../Downloads/NewRelic_iOS_Agent_1.354/NewRelicAgent.framework; sourceTree = "<group>"; };
 		C4ED4F3314BFA260002D9CF4 /* AccelerometerTestTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerometerTestTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED4F3714BFA260002D9CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4ED4F3914BFA260002D9CF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,10 +60,10 @@
 		C4ED4F4B14BFA260002D9CF4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C4ED4F4D14BFA260002D9CF4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C4ED4F4F14BFA260002D9CF4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C4ED4F5314BFA260002D9CF4 /* AccelerometerTestTwo-Info.plist */ = {isa = PBXFileReference; path = "AccelerometerTestTwo-Info.plist"; sourceTree = "<group>"; };
+		C4ED4F5314BFA260002D9CF4 /* AccelerometerTestTwo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccelerometerTestTwo-Info.plist"; sourceTree = "<group>"; };
 		C4ED4F5514BFA260002D9CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4ED4F5714BFA260002D9CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4ED4F5914BFA260002D9CF4 /* AccelerometerTestTwo-Prefix.pch */ = {isa = PBXFileReference; path = "AccelerometerTestTwo-Prefix.pch"; sourceTree = "<group>"; };
+		C4ED4F5914BFA260002D9CF4 /* AccelerometerTestTwo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccelerometerTestTwo-Prefix.pch"; sourceTree = "<group>"; };
 		C4ED4F5A14BFA260002D9CF4 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		C4ED4F5F14BFA260002D9CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4ED4F6314BFA260002D9CF4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +74,10 @@
 		C4ED4F6F14BFA260002D9CF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		C4ED4F7114BFA260002D9CF4 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		C4ED4F7314BFA260002D9CF4 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		C4ED4F7614BFA260002D9CF4 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		C4ED4F7614BFA260002D9CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C4ED4F7714BFA260002D9CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		C4ED4F7A14BFA260002D9CF4 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		C4ED4F7A14BFA260002D9CF4 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		C4F8908214C081FF00A9B7E3 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C419FE0517A4C4D200E16EF1 /* libz.dylib in Frameworks */,
+				C4ED4F4C14BFA260002D9CF4 /* SystemConfiguration.framework in Frameworks */,
+				C419FE0417A4C4C300E16EF1 /* CoreTelephony.framework in Frameworks */,
 				C4ED4F3814BFA260002D9CF4 /* Foundation.framework in Frameworks */,
 				C4ED4F3A14BFA260002D9CF4 /* UIKit.framework in Frameworks */,
 				C4ED4F3C14BFA260002D9CF4 /* CoreGraphics.framework in Frameworks */,
@@ -84,10 +98,10 @@
 				C4ED4F4614BFA260002D9CF4 /* CoreLocation.framework in Frameworks */,
 				C4ED4F4814BFA260002D9CF4 /* MediaPlayer.framework in Frameworks */,
 				C4ED4F4A14BFA260002D9CF4 /* QuartzCore.framework in Frameworks */,
-				C4ED4F4C14BFA260002D9CF4 /* SystemConfiguration.framework in Frameworks */,
 				C4ED4F4E14BFA260002D9CF4 /* MobileCoreServices.framework in Frameworks */,
 				C4ED4F5014BFA260002D9CF4 /* CoreMedia.framework in Frameworks */,
 				C4ED4F5B14BFA260002D9CF4 /* PhoneGap.framework in Frameworks */,
+				C4A45AE417A4AD8600595624 /* NewRelicAgent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C419FE0317A4BD1100E16EF1 /* libz.dylib in Frameworks */,
+				C419FE0117A4BD0300E16EF1 /* SystemConfiguration.framework in Frameworks */,
+				C419FE0017A4BCF300E16EF1 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +121,9 @@
 		C4ED4F2514BFA260002D9CF4 = {
 			isa = PBXGroup;
 			children = (
+				C419FE0217A4BD1100E16EF1 /* libz.dylib */,
+				C419FDFF17A4BCF300E16EF1 /* CoreTelephony.framework */,
+				C4F8908214C081FF00A9B7E3 /* www */,
 				C4ED4F5114BFA260002D9CF4 /* AccelerometerTestTwo */,
 				C4ED4F3614BFA260002D9CF4 /* Frameworks */,
 				C4ED4F3414BFA260002D9CF4 /* Products */,
@@ -121,6 +141,7 @@
 		C4ED4F3614BFA260002D9CF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4A45AE317A4AD8600595624 /* NewRelicAgent.framework */,
 				C4ED4F3714BFA260002D9CF4 /* Foundation.framework */,
 				C4ED4F3914BFA260002D9CF4 /* UIKit.framework */,
 				C4ED4F3B14BFA260002D9CF4 /* CoreGraphics.framework */,
@@ -255,6 +276,7 @@
 		C4ED4F2714BFA260002D9CF4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Big River";
 			};
 			buildConfigurationList = C4ED4F2A14BFA260002D9CF4 /* Build configuration list for PBXProject "AccelerometerTestTwo" */;
@@ -290,6 +312,7 @@
 				C4ED4F7014BFA260002D9CF4 /* Default@2x.png in Resources */,
 				C4ED4F7214BFA260002D9CF4 /* Capture.bundle in Resources */,
 				C4ED4F7414BFA260002D9CF4 /* PhoneGap.plist in Resources */,
+				C4F8908314C081FF00A9B7E3 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,11 +428,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Shared/PhoneGap/Frameworks,
+					"\"$(SRCROOT)/../../../Downloads/NewRelic_iOS_Agent_1.354\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AccelerometerTestTwo/AccelerometerTestTwo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "AccelerometerTestTwo/AccelerometerTestTwo-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -433,10 +460,14 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Shared/PhoneGap/Frameworks,
+					"\"$(SRCROOT)/../../../Downloads/NewRelic_iOS_Agent_1.354\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AccelerometerTestTwo/AccelerometerTestTwo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "AccelerometerTestTwo/AccelerometerTestTwo-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -474,6 +505,7 @@
 				C4ED4F7F14BFA260002D9CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
